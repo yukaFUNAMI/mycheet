@@ -3,6 +3,6 @@ https://www.deepl.com/ja/translator
 
 https://www.linguee.com/
 
-# Degree(CS)
+# Online Course(CS)
 
 # Kaiwa
