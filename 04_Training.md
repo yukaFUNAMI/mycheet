@@ -7,9 +7,15 @@ https://www.hackthebox.eu/
 
 https://www.pentesteracademy.com/
 
-https://www.vulnhub.com/resources/
+https://www.vulnhub.com/
 
-## WebApp
+https://www.root-me.org/
+
+https://hack.me/
+
+### AD
+
+### WebApp
 https://owasp.org/www-project-broken-web-applications/
 
 https://owasp.org/www-project-juice-shop/
