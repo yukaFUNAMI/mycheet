@@ -1,9 +1,8 @@
 # Tools
  ## NW
- ### waf
  ## WEB
  ### CMS
- ## PrivESC
+ ## PrivEsc
   ### Linux
   ### Windows
   ### AD
