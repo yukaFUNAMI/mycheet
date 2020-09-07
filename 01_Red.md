@@ -1,8 +1,10 @@
 # Tools
  ## Wordlist
- 
  ### Fuzz
+ seclist https://github.com/danielmiessler/SecLists
  ### Password
+ rockyou.txt
+ 
  ## NW
  ## WEB
  wfuzz -u http://target/dir/FUZZ.FUZ2Z -w /usr/share/seclists/Discovery/Web-Content/big.txt -z list,php-html-txt-log --hc 404 -p 127.0.0.1:8081
