@@ -10,13 +10,16 @@
  wfuzz -u http://target/dir/FUZZ.FUZ2Z -w /usr/share/seclists/Discovery/Web-Content/big.txt -z list,php-html-txt-log --hc 404 -p 127.0.0.1:8081
  
  fuff -w wordlist.txt -u http://target.com/api/FUZZ:80 -o output.txt -replay-proxy http://127.0.0.1:8081 -p 3 -t 3
+
 -p wait(second)
 -t number of thread
 
 fuff -w wordlist.txt:FUZZ -w mylist.txt:FUZZ2 -u http://target.com/api/FUZZ/target.php?prm=FUZZ2
- ->clustorbomb+pitchfork
+
+->clustorbomb+pitchfork
 
 ffuf -w  wordlist.txt -X "PUT" -u http://target.com -H "Content Type:application/json" -d "{'FUZZ':'value'}" -o output.txt -replay-proxy http://127.0.0.1:8081
+
 ->test json(change request method)
 
 curl
