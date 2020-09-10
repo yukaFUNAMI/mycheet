@@ -1,7 +1,12 @@
 # Tools
  ## Wordlist
  ### Fuzz
- seclist https://github.com/danielmiessler/SecLists
+ Seclist
+ https://github.com/danielmiessler/SecLists
+ 
+ Fuzzdb
+ https://github.com/fuzzdb-project/fuzzdb
+ 
  ### Password
  rockyou.txt
  
