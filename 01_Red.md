@@ -9,6 +9,8 @@
  
  ### Password
  rockyou.txt
+ ## Recon
+ AutoRecon https://github.com/Tib3rius/AutoRecon
  
  ## NW
  ## WEB
@@ -33,10 +35,19 @@ fuff -w wordlist.txt -u http://target.com/FUZZ/ -e .php -recursion
 curl
 http://cheat.sh/curl
 
+AutoRecon
+https://github.com/Tib3rius/AutoRecon
+
  ### CMS
  ## PrivEsc
   ### Linux
+  
+  Training(Udemy)
+  https://www.udemy.com/course/linux-privilege-escalation/?referralCode=0B0B7AA1E52B4B7F4C06
   ### Windows
+  
+  Training(Udemy)
+  https://www.udemy.com/course/windows-privilege-escalation/?referralCode=9A533B41ECB74227E574
   ### AD
   
 # Basics
