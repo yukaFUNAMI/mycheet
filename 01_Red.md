@@ -1,14 +1,15 @@
 # Tools
- ## Wordlist
- ### Fuzz
+ ## Fuzz
  Seclist
  https://github.com/danielmiessler/SecLists
  
  Fuzzdb
  https://github.com/fuzzdb-project/fuzzdb
  
- ### Password
- rockyou.txt
+ ## Password
+ Basic Auth(https://10.10.10.10:443/targetdir id:admin pass:mylist)
+ hydra -l admin -P /usr/share/wordlists/mylist.txt 10.10.10.10 -s 443 https-get /targetdir
+ 
  ## Recon
  AutoRecon https://github.com/Tib3rius/AutoRecon
  
