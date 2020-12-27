@@ -1,3 +1,10 @@
+# Hireing
+Cobalt
+https://cobalt.io/
+
+Synack
+https://www.synack.com/
+
 
 # Labs(HandsOn)
 ## Pentest
@@ -12,6 +19,9 @@ https://www.vulnhub.com/
 https://www.root-me.org/
 
 https://hack.me/
+
+Google Gruyeye
+https://google-gruyere.appspot.com/
 
 ### AD
 
