@@ -1,0 +1,26 @@
+-----------------------
+ WSL2
+-----------------------
+*Enable VT on BIOS
+
+*Enable WSL2
+
+*Download Kali Image(Windows Store)
+
+* Install full tools
+sudo apt -y install build-essential
+sudo install -y kali-linux-everything
+sudo install -y install kali-menu
+
+* xrdp
+sudo apt install -y xrdp
+service xrdp start
+
+* docker
+sudo apt install -y doker
+
+フルインストールすると1時間程度かかったので、VirtualBoxでもよいのかもしれぬ。
+
+-----------------------
+ Docker
+-----------------------
