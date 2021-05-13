@@ -24,3 +24,21 @@ sudo apt install -y doker
 -----------------------
  Docker
 -----------------------
+# pull
+https://registry.hub.docker.com/u/kalilinux
+docker pull kalilinux/kali-rolling
+
+# update kali and install KDE
+apt update
+apt install -y kali-defaults kali-root-login desktop-base kde-full
+
+# commit
+docker ps
+docker start ID
+docker attach ID
+docker commit ID kali
+docker images <- check kali
+
+# port
+docker run -it --rm -p 4444:4444 kali
+
