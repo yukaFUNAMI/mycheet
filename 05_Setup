@@ -19,7 +19,7 @@ service xrdp start
 * docker
 sudo apt install -y doker
 
-フルインストールすると1時間程度かかったので、VirtualBoxでもよいのかもしれぬ。
+フルインストールすると1時間程度かかった
 
 -----------------------
  Docker
